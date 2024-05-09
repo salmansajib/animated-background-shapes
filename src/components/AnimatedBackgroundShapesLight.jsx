@@ -1,4 +1,4 @@
-function AnimatedBackgroundShapes() {
+function AnimatedBackgroundShapesLight() {
   return (
     <div className=' bg-gray-50 min-h-svh flex items-center justify-center px-16 '>
       <div className=' relative w-full max-w-lg '>
@@ -10,4 +10,4 @@ function AnimatedBackgroundShapes() {
   );
 }
 
-export default AnimatedBackgroundShapes;
+export default AnimatedBackgroundShapesLight;

@@ -1,10 +1,12 @@
 import './App.css';
-import AnimatedBackgroundShapes from './components/AnimatedBackgroundShapes';
+import AnimatedBackgroundShapesDark from './components/AnimatedBackgroundShapesDark';
+import AnimatedBackgroundShapesLight from './components/AnimatedBackgroundShapesLight';
 
 function App() {
   return (
     <div className='app'>
-      <AnimatedBackgroundShapes />
+      <AnimatedBackgroundShapesLight />
+      <AnimatedBackgroundShapesDark />
     </div>
   );
 }
